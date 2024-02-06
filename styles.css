@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url('hellokitty_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco translúcido */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff6699; /* Color de texto rosa oscuro */
+}
+
+p {
+    margin-bottom: 15px;
+    color: #333; /* Color de texto oscuro */
+}
+
+.centered {
+    position: relative;
+}
+
+.rose {
+    width: 437px; /* Ancho de la rosa */
+    height: 452px; /* Alto de la rosa */
+    margin: 20px auto; /* Centra la imagen debajo del texto */
+    display: block; /* Evita márgenes adicionales */
+}
+
+.btn {
+    background-color: #ff5e5e; /* Color de fondo del botón Sí */
+    color: #fff; /* Color de texto del botón Sí */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff3333; /* Color de fondo del botón Sí al pasar el ratón */
+}
